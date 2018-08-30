@@ -10,10 +10,10 @@ from pandas.io.json import json_normalize
 
 
 
-AccessToken = '2453223655-cAGydCEyUcRKofnQo52zoZzzqOMQdIZth3AdKI2'
-AccessSecret = 'gqUjZmM67a3Dz86VXjzIFRSq3M5XvxKEsTcc1NCrRcsWU'
-ConsumerKey = '3CDW01XTifhX0k0OyOZ5UisTb'
-ConsumerSecret = 'YVBfDyjwuXO9xNrG2vKhgLy4wE9ntMvkLMfFEBsjP41ecuXOQo'
+AccessToken = '2453223655-cAGydCEyUcRKofnQo52zoZzzqOMQdIZth3AdKI2'//bhai json key kyo daal rhkii he hta isko kiski twitter id h ye......
+AccessSecret = 'gqUjZmM67a3Dz86VXjzIFRSq3M5XvxKEsTcc1NCrRcsWU'//bhai json key kyo daal rhkii he hta isko kiski twitter id h ye......
+ConsumerKey = '3CDW01XTifhX0k0OyOZ5UisTb'//bhai json key kyo daal rhkii he hta isko kiski twitter id h ye......
+ConsumerSecret = 'YVBfDyjwuXO9xNrG2vKhgLy4wE9ntMvkLMfFEBsjP41ecuXOQo'//hta
 
 oauth=OAuth(AccessToken, AccessSecret, ConsumerKey, ConsumerSecret)
 twitter_api=Twitter(auth=oauth)
